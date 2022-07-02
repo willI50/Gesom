@@ -24,11 +24,43 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+
+
     <title>React App</title>
+
+     <!-- Preconnect to CDNs: remove if not needed -->
+     <link rel="preconnect" href="https://code.jquery.com" crossorigin="anonymous">
+     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous">
+     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous">
+     
+     <!--
+       Neue Helvetica is a trademark of Monotype Imaging Inc. registered in the U.S.
+       Patent and Trademark Office and may be registered in certain other jurisdictions.
+       Copyright © 2014 Monotype Imaging Inc. All rights reserved.
+       Orange has purchased the right to use Helvetica in its websites and mobile applications.
+       If you are not authorized to used it, don't include the orangeHelvetica.css.
+       See NOTICE.txt for more information.
+     -->
+     <link rel="preload" href="fonts/HelvNeue55_W1G.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+     <link rel="preload" href="fonts/HelvNeue75_W1G.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/orangeHelvetica.min.css" />
+     <!--
+       Orange Icons
+       Copyright (C) 2016 - 2019 Orange SA All rights reserved
+       See NOTICE.txt for more information.
+     -->
+     <link rel="stylesheet" href="css/orangeIcons.min.css" />
+ 
+     <!-- Boosted CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boosted@4.5.3/dist/css/boosted.min.css" integrity="sha384-2x94UsUfEIjfJm4eAvt3wXrWUC/pAef/uLL2Q6KkHM9bgnm7fHaLTVOfjHlijBJS" crossorigin="anonymous">
+   
+
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+  
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -39,5 +71,14 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+ <!-- Just before </body> -->
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/tablesorter@2.31.3/dist/js/jquery.tablesorter.min.js" integrity="sha384-+PEWXCk8F17zxsQsEjkuHjUN4yFMHv03eKxKLrqwDql8FJQM0NeSvHRZFVLfXyn7" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@4.5.1/dist/js/swiper.min.js" integrity="sha384-llVNZVxgabZyf5ZeGs3m2QcNbEE0UK1PBKM6ZoJmWK5BuBpqZUXpN1nWXd0SrAC5" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/boosted@4.5.3/dist/js/boosted.min.js" integrity="sha384-dZ5yFPu4JLOG6APRar263bUkZl+uDJl2LWBDXvSyVocYb4g2FJrT0BxpETyjdqtj" crossorigin="anonymous"></script>
+   
+
   </body>
 </html>
