@@ -1,0 +1,21 @@
+
+
+.cart{
+ Effect: Drop shadow;
+border-radius: 4px;
+/* Offset: 0px, 4px; */
+
+border-radius: 23px;
+
+border-color:#D9D9D9;
+height: 185px;
+width: 150px;
+border-style: solid;
+
+background-color: #D9D9D9;
+text-align: center;
+box-shadow: 2px 0px 10px -10px ;
+
+
+
+}

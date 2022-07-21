@@ -1,84 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+      Neue Helvetica is a trademark of Monotype Imaging Inc. registered in the U.S.
+      Patent and Trademark Office and may be registered in certain other jurisdictions.
+      Copyright © 2014 Monotype Imaging Inc. All rights reserved.
+      Orange Company had buy the right for used Helvetica onto digital applications.
+      If you are not autorized to used it, don't include the orangeHelvetica.css
+      See NOTICE.txt for more informations.
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="css/orangeHelvetica.css" />
     <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
+      Orange Icons
+      Copyright (C) 2016 - 2019 Orange SA All rights reserved
+      See NOTICE.txt for more informations.
     -->
+    <link rel="stylesheet" href="css/orangeIcons.css" />
 
+    <!-- Boosted CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boosted@4.3.1/dist/css/boosted.min.css" integrity="sha384-pQZlBsB+mYr1o13jiUUGYbwDh2LirLZP0Pvou6wwJ/sWWoHlU8oVY2l8sX/Ejhrr" crossorigin="anonymous">
 
-    <title>React App</title>
-
-     <!-- Preconnect to CDNs: remove if not needed -->
-     <link rel="preconnect" href="https://code.jquery.com" crossorigin="anonymous">
-     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous">
-     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous">
-     
-     <!--
-       Neue Helvetica is a trademark of Monotype Imaging Inc. registered in the U.S.
-       Patent and Trademark Office and may be registered in certain other jurisdictions.
-       Copyright © 2014 Monotype Imaging Inc. All rights reserved.
-       Orange has purchased the right to use Helvetica in its websites and mobile applications.
-       If you are not authorized to used it, don't include the orangeHelvetica.css.
-       See NOTICE.txt for more information.
-     -->
-     <link rel="preload" href="fonts/HelvNeue55_W1G.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-     <link rel="preload" href="fonts/HelvNeue75_W1G.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-     <link rel="stylesheet" href="css/orangeHelvetica.min.css" />
-     <!--
-       Orange Icons
-       Copyright (C) 2016 - 2019 Orange SA All rights reserved
-       See NOTICE.txt for more information.
-     -->
-     <link rel="stylesheet" href="css/orangeIcons.min.css" />
- 
-     <!-- Boosted CSS -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boosted@4.5.3/dist/css/boosted.min.css" integrity="sha384-2x94UsUfEIjfJm4eAvt3wXrWUC/pAef/uLL2Q6KkHM9bgnm7fHaLTVOfjHlijBJS" crossorigin="anonymous">
-   
-
-
+    <title>Gesom</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <div id="root">
+      
+    </div>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-
- <!-- Just before </body> -->
- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
- <script src="https://cdn.jsdelivr.net/npm/tablesorter@2.31.3/dist/js/jquery.tablesorter.min.js" integrity="sha384-+PEWXCk8F17zxsQsEjkuHjUN4yFMHv03eKxKLrqwDql8FJQM0NeSvHRZFVLfXyn7" crossorigin="anonymous"></script>
- <script src="https://cdn.jsdelivr.net/npm/swiper@4.5.1/dist/js/swiper.min.js" integrity="sha384-llVNZVxgabZyf5ZeGs3m2QcNbEE0UK1PBKM6ZoJmWK5BuBpqZUXpN1nWXd0SrAC5" crossorigin="anonymous"></script>
- <script src="https://cdn.jsdelivr.net/npm/boosted@4.5.3/dist/js/boosted.min.js" integrity="sha384-dZ5yFPu4JLOG6APRar263bUkZl+uDJl2LWBDXvSyVocYb4g2FJrT0BxpETyjdqtj" crossorigin="anonymous"></script>
-   
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Boosted JS. -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js" integrity="sha384-L2pyEeut/H3mtgCBaUNw7KWzp5n9+4pDQiExs933/5QfaTh8YStYFFkOzSoXjlTb" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.1/js/jquery.tablesorter.min.js" integrity="sha384-QnFIXbEfAgO7z63b/aNzTSdSNLoNiNX/mk/Ok+NpUNMnvriWLo5cOtB0OUCAdKNu" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js" integrity="sha384-fOtis9P3S4B2asdoye1/YBpXMaRmuXu925gZhfQA/gnU3dLnftD8zvpk/lhP0YSG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/boosted@4.3.1/dist/js/boosted.min.js" integrity="sha384-mtmGDb9qalJeocSwW+VFsFUaXKMIItvPRHgGn87RVnoYZz/8D42oMV65Qse6yJt5" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
